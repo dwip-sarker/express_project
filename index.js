@@ -7,8 +7,7 @@ const { engine } = require('express-handlebars');
 const router = require(path.join(__dirname, './routes/routes'));
 // initilization
 const app = express();
-const port = 3000;
-
+const port = process.env.port || 8000;
 // app use
 app.use(express.static(path.join(__dirname, './static/')));
 app.use('/', router);
