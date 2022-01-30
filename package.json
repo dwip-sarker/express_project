@@ -1,0 +1,15 @@
+{
+  "name": "blogexpress",
+  "version": "1.0.0",
+  "description": "I am just following harry bhai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dip Sarker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  }
+}
